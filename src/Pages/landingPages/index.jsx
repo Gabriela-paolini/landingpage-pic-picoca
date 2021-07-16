@@ -36,7 +36,7 @@ export default function LandingPages() {
       <Header/>
       <Search/>
       <Article>
-        <S.Form onSubmit={(e) => handleSubmit(e, name, email)}>
+        <S.Form onSubmit={(e) => handleSubmit(e)} netlify>
           <Input label="Nome:" value={name} onChange={(e) => setName(e.target.value)}/>
           <Input label="E-mail:" value={email} onChange={(e) => setEmail(e.target.value)}/>
           <Button label="Enviar" type="submit"/>
