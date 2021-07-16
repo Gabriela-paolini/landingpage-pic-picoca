@@ -6,10 +6,10 @@ export default function Nav () {
   return (
     <S.Nav>
       <S.Menu src={menu} />
-        <li><a href="#">Home</a></li> 
-        <li><a href="#">Produtos</a></li>
-        <li><a href="#">Minha Conta</a></li>
-        <li><a href="#">Lista de Desejo</a></li>
+        <li><a href="#void">Home</a></li> 
+        <li><a href="#void">Produtos</a></li>
+        <li><a href="#void">Minha Conta</a></li>
+        <li><a href="#void">Lista de Desejo</a></li>
     </S.Nav>
   )
 }
